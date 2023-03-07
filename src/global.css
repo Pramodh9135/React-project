@@ -1,0 +1,91 @@
+body{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000);
+    
+}
+img{
+    height: auto;
+    width: 900px
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    height: 35px;
+}
+#home{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149005675.jpg?w=740&t=st=1677854749~exp=1677855349~hmac=c03ffe87205c47fb62fa7642699b198ff1c3dc24a39baf6b9428aad7afd526a0) 
+    
+}
+button{
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: blue;
+    color: blanchedalmond;
+}
+.signup{
+    margin-left: 75vh;
+    border: 2px solid black;
+    height: 300px;
+    width: 400px;
+    margin-top: 113px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+}
+.radio{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.signup input{
+    width: 200px;
+    padding: 5px;
+    margin-top: 15px;
+    background: transparent;
+    color:rgb(24, 19, 19);
+    font-size: medium;
+}
+.login{        margin-left: 75vh;
+    border: 2px solid black;
+    height: 194px;
+    width: 400px;
+    margin-top: 113px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+}
+.login input{
+    width: 200px;
+    padding: 5px;
+    margin-top: 30px;
+    background: transparent;
+    color:rgb(24, 19, 19);
+    font-size: medium;
+
+}
+.menu img{
+    width: 100%;
+    height: 90vh;
+}
+#home{
+    border: 2px solid black;
+    width: 50vh;
+    height: 30vh;
+   
+    margin-left: 60vh;
+}#home button{
+    margin-left: 15vh;
+}
+#home h3{
+    margin-left: 10vh;
+}
